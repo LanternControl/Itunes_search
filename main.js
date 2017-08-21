@@ -30,8 +30,8 @@ button.addEventListener('submit', function(event) {
           let markup =
           `
           <p><img src = ${data.results[i].artworkUrl100} class = 'picture'></p>
-          <p>${data.results[i].trackName}</p>
           <p>${data.results[i].artistName}</p>
+          <p>${data.results[i].trackName}</p>
           `
           boxes.innerHTML = markup;
           let box = document.getElementById('results');
