@@ -13,9 +13,15 @@
       <audio class="music-player" controls="controls" src=""></audio>
     </section>
     <section class="search">
-      <form class="search-form">
-        
+      <form id="search_form">
+        <input type = 'text' name = 'search_media' class = 'search_media' placeholder = 'Enter search here...'>
+        <input type = 'submit' name = 'search_button' class = 'search_button'>
       </form>
+      <div id = 'controls'>
+        <audio controls></audio>
+      </div>
+      <div id = 'results'>
+      </div>
     </section>
     <section class="results"></section>
   </div>
